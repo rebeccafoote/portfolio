@@ -412,8 +412,9 @@ a:hover {opacity: .6}
     
     .tit le {display: flex; flex-direction: column; justify-content: flex-end;}
     .date {font-size: 90%}
-    .images {display: block;}
+    .images, .images_bleach {display: block;}
     .images img {width: 100%; margin-bottom: 20px}
+    .images_bleach img {width: 100%; margin-bottom: 20px}
     
 }
 
