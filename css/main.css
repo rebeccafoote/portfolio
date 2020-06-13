@@ -109,7 +109,7 @@ body {backgr ound: hsl(347,100%,95%); background: url(../images/flat_crane.jpg) 
 
 
 /*HEADER*/
-header {display: grid; grid-template-columns: 1fr auto;}
+header {display: grid; grid-template-columns: auto 1fr;}
 header>* {bor der: 1px solid white; padding: 20px}
 
 h1 {margin: 0;}
@@ -117,9 +117,7 @@ nav {text-align: right;}
 nav li {display: inline-block; margin: 0 10px; list-style: none;}
 nav a {text-decoration: none; color: black;}
 
-
-.dropdown {position: relative;}
-.drop_content {display: none; position: absolute; z-index: 1; padding-left: 0; width: 140%;}
+.drop_content {display: none; position: absolute; z-index: 1; padding-left: 2px; padding-right: 2px; background: hsl(0,0%,99%,.95);}
 .drop_content a {display: block; bor der: 1px solid red; font-size: 85%; text-align: left; margin-top: 5px;}
 .dropdown:hover .drop_content {display: block;}
 
@@ -366,8 +364,10 @@ a:hover {opacity: .6}
 @media screen and (max-width: 768px){
     header>* {bor der: 1px solid blue}
     header {font-size: 80%}
-    nav li {display: block; margin-bottom: 2px}
-    nav {padding: 0 20px;}
+    .nav_menu {padding: 0; display: flex; justify-content: flex-end}
+    nav {position: absolute; padding: 0 20px;}
+    .ul {width: 100%; float: right}
+    nav li {display: block; margin-bottom: 2px; margin-left: auto; width: 100%}
     .drop_content {position: relative;}
     
     .thesis {margin: 50px 20vw; grid-template-columns: 47% 47%; grid-gap: 6%;}
