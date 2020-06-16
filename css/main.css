@@ -282,26 +282,12 @@ a:hover {opacity: .6}
 
 .modal_content_landscape {
     position: relative;
-    margin: 10vw auto;
+    margin: 7vh auto;
     padding: 0 25px;
     width: 70vw;
 }
 
 .modal_content_landscape .slides img {width: 100%; height: auto}
-
-
-/*COLOR STUDY LIGHTBOX GALLERY*/
-
-.modal_content_square {
-    position: relative;
-    margin: 10vw auto;
-    padding: 0 25px;
-    width: 70vw;
-}
-
-.modal_content_square .slides {display:}
-
-.modal_content_square .slides img {width: 50%; height: auto}
 
 
 /*ORIGAMI BAGS*/
