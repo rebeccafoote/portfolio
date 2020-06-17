@@ -128,7 +128,7 @@ h2, h3 {font-family: "FashionFetishSmallCaps"}
 a {text-decoration: none; color: black;}
 a:hover {opacity: .6}
 .box:hover {opacity: .6}
-* {bo rder: 1px solid red;}
+* {border: 1px solid red;}
 
 /*GO TO TOP BUTTON*/
 #button {
@@ -462,15 +462,9 @@ a:hover {opacity: .6}
     
     
     
-    .modal_content_landscape {
-    margin: 10vh auto;
-    width: 80vw;
-    }
+    .modal_content_landscape {margin: 10vh auto; width: 80vw;}
 
-    .modal_content_landscape-1-1 {
-    margin: 10vh auto;
-    width: 65vw;
-}
+    .modal_content_landscape-1-1 {margin: 10vh auto; width: 65vw;}
 
 
     
@@ -511,14 +505,13 @@ a:hover {opacity: .6}
     
     
     #modal {padding-top: 15vh;}
-    .modal_content {padding: 0 20px; width: 54vh;}
+    .modal_content {padding: 0 20px; width: 50vh;}
     .modal_content figure {margin: 0}
-    
-    .slides {display: none;}
-    .slides img {height: 70vh;}
-    .slides .img_square {height: 53vh;}
-    .slides .landscape-1 {height: 40vh; width: auto}
-    .slides .landscape-2 {height: 35vh}
+
+    .slides img {height: 65vh;}
+    .slides .img_square {height: auto; width: 100%}
+    .slides .landscape-1 {height: auto; width: 100%}
+    .slides .landscape-2 {height: auto; width: 100%}
     
     .close {top: 5px;}
     .close img {width: 15px}
@@ -526,6 +519,10 @@ a:hover {opacity: .6}
     .prev {margin-left: -5px}
     .next {margin-right: -5px}
     .prev img, .next img {width: 20px; margin-top: -5px}
+    
+    .modal_content_landscape {margin: 10vh auto; padding: 0 20px; width: 80vw;}
+
+    .modal_content_landscape-1-1 {margin: 10vh auto; padding: 0 20px; width: 80vw;}
     
     
     
