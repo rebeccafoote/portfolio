@@ -290,6 +290,21 @@ a:hover {opacity: .6}
 .modal_content_landscape .slides img {width: 100%; height: auto}
 
 
+/*FLOAT LANDSCAPE LIGHTBOX GALLERY*/
+
+.modal_content_landscape-1-1 {
+    position: relative;
+    margin: 5vh auto;
+    padding: 0 25px;
+    width: 60vw;
+}
+
+.modal_content_landscape-1-1 figure {margin: 0}
+
+.modal_content_landscape-1-1 .slides img {width: 100%; height: auto}
+
+
+
 /*ORIGAMI BAGS*/
 .origami {letter-spacing: .071em}
 .bags {letter-spacing: .7em;}
@@ -445,13 +460,18 @@ a:hover {opacity: .6}
     .thesis {margin: 50px 20vw; grid-template-columns: 47% 47%; grid-gap: 6%;}
     .portfolio {margin: 50px 20vw; grid-template-columns: 47% 47%; grid-gap: 6%;}
     
+    
+    
     .modal_content_landscape {
-    margin: 15vh auto;
-    padding: 0 25px;
+    margin: 10vh auto;
     width: 80vw;
     }
 
-    .modal_content_landscape .slides img {width: 100%; height: auto}
+    .modal_content_landscape-1-1 {
+    margin: 10vh auto;
+    width: 65vw;
+}
+
 
     
     .body {font-size: 85%}
@@ -480,13 +500,34 @@ a:hover {opacity: .6}
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     #button img {width: 24px; height: 12px}
     #button p {font-size: 12px; margin-top: 5px}
     
     .about {font-size: 85%}
     
     .portfolio {display: block;}
+    
+    
+    
+    #modal {padding-top: 15vh;}
+    .modal_content {padding: 0 20px; width: 54vh;}
+    .modal_content figure {margin: 0}
+    
+    .slides {display: none;}
+    .slides img {height: 70vh;}
+    .slides .img_square {height: 53vh;}
+    .slides .landscape-1 {height: 40vh; width: auto}
+    .slides .landscape-2 {height: 35vh}
+    
+    .close {top: 5px;}
+    .close img {width: 15px}
+    
+    .prev {margin-left: -5px}
+    .next {margin-right: -5px}
+    .prev img, .next img {width: 20px; margin-top: -5px}
+    
+    
     
     .images_color_study {display: block}
     .images_color_study img {margin-bottom: 20px}
@@ -497,6 +538,30 @@ a:hover {opacity: .6}
     .images img {width: 100%; margin-bottom: 20px}
     .images_bleach img {width: 100%; margin-bottom: 20px}
     
+}
+
+
+@media screen and (max-height: 420px){
+    .close {top: 5px;}
+    .close img {width: 15px}
+    
+    .prev {margin-left: -5px}
+    .next {margin-right: -5px}
+    .prev img, .next img {width: 20px; margin-top: -5px}
+
+    .modal_content_landscape {
+        margin: 7vh auto;
+        padding: 0 20px;
+        width: 131vh;
+    }
+    .modal_content_landscape .slides img {width: auto; height: 65vh}
+    
+    .modal_content_landscape-1-1 {
+        margin: 2.5vh auto;
+        padding: 0 20px;
+        width: 101vh
+    }
+    .modal_content_landscape-1-1 .slides img {width: auto; height: 75vh}
 }
 
 
@@ -516,6 +581,9 @@ a:hover {opacity: .6}
 
 @media screen and (min-width: 1024px){
     body {background: url(../images/flat_crane.jpg) repeat top center; background-size: 100vh;}
+    
+    .modal_content_landscape-1-1 {margin: 0 auto; width: 55vw;}
+    
     
     .images {grid-template-columns: auto auto auto;}
     #in_texture {grid-column: 2/4}
