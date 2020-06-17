@@ -128,7 +128,8 @@ h2, h3 {font-family: "FashionFetishSmallCaps"}
 a {text-decoration: none; color: black;}
 a:hover {opacity: .6}
 .box:hover {opacity: .6}
-* {border: 1px solid red;}
+* {bor der: 1px solid red;}
+
 
 /*GO TO TOP BUTTON*/
 #button {
@@ -494,7 +495,7 @@ a:hover {opacity: .6}
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
     #button img {width: 24px; height: 12px}
     #button p {font-size: 12px; margin-top: 5px}
     
