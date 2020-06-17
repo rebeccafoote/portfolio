@@ -497,7 +497,7 @@ a:hover {opacity: .6}
 
 
 @media screen and (max-width: 500px){
-    #button {bottom: 10px; right: 10px}
+    #button {bottom: 10px; right: 5px}
     #button img {width: 24px; height: 12px}
     #button p {font-size: 12px; margin-top: 5px}
     
