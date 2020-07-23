@@ -311,6 +311,8 @@ a:hover {opacity: .6}
 .origami {letter-spacing: .071em}
 .bags {letter-spacing: .7em;}
 
+#images_origami_bags figure {background: white}
+
 
 /*INWARD / OUTWARD*/
 .title {display: flex; flex-direction: column; justify-content: flex-end;}
