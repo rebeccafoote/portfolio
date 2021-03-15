@@ -128,7 +128,7 @@ h2, h3 {font-family: "FashionFetishSmallCaps"}
 a {text-decoration: none; color: black;}
 a:hover {opacity: .6}
 .box:hover {opacity: .6}
-* {bor der: 1px solid red;}
+* {bo rder: 1px solid red;}
 
 
 /*GO TO TOP BUTTON*/
@@ -169,8 +169,8 @@ a:hover {opacity: .6}
 
 /*FUSE*/
 .fuse_title {letter-spacing: .7em; padding-ri ght: 10px}
-.images_fuse {bo rder: 2px solid blue; display: block; backgro und: white}
-.images_fuse img {width: 100%; margin-bottom: 25px}
+.images_2to1 {bo rder: 2px solid blue; display: block; backgro und: white}
+.images_2to1 img {width: 100%; margin-bottom: 25px}
 
 
 /*COLOR STUDY*/
@@ -183,17 +183,17 @@ a:hover {opacity: .6}
 /*PORTFOLIO aka PAST WORK*/
 .portfolio {display: grid; grid-template-columns: 31% 31% 31%; grid-gap: 3.5%;}
 .portfolio h3 {text-align: center; font-size: max(2vw, 13px)}
-.port folio>* {border: 1px solid red}
+.portfolio>* {bo rder: 1px solid red}
 
 .box {margin-bottom: 5px;}
 .box h3 {margin-bottom: 0;}
-.port-origami_bags, .port-in_out, .port-box_shorts, .port-float, .port-bleach {padding-top: 100%;}
-.port-float, .port-bleach {justify-content: center}
+.port-origami_bags, .port-in_out, .port-box_shorts, .port-float, .port-sdf, .port-bleach {padding-top: 100%;}
 
-.port-origami_bags {background: url(../images/origami_bags/3-3.jpg) no-repeat center 88%; background-size: 125%;}
+.port-origami_bags {background: url(../images/origami_bags/3a.jpg) no-repeat 97% 78%; background-size: 355%;}
 .port-in_out {background: url(../images/in_out/in-6.jpg) no-repeat center center; background-size: cover;}
 .port-box_shorts {background: url(../images/box_shorts/3.jpg) no-repeat top center; background-size: cover;}
 .port-float {background: url(../images/float/1.jpg) no-repeat center center; background-size: cover;}
+.port-sdf {background: url(../images/spin_dye_felt/sdf-1.jpg) no-repeat center 100%; background-size: cover;}
 /*.port-bleach {background: url(../images/bleach/3.jpg) no-repeat center center; background-size: cover; background-position: 80%}*/
 
 
@@ -307,11 +307,9 @@ a:hover {opacity: .6}
 
 
 
-/*ORIGAMI BAGS*/
+/*CREATE SPACE*/
 .create {letter-spacing: .23em}
 .space {letter-spacing: .4em;}
-
-#images_origami_bags figure {background: white}
 
 
 /*INWARD / OUTWARD*/
@@ -336,6 +334,13 @@ a:hover {opacity: .6}
 .float_title {letter-spacing: .45em; padding-right: 10px}
 .images_float figure {margin: auto auto 20px;}
 .images_float img {width: 100%}
+
+
+/*SPIN, DYE, FELT*/
+.title {display: flex; flex-direction: column; justify-content: flex-end;}
+.spin {letter-spacing: .5em}
+.dye {letter-spacing: .72em}
+.felt {letter-spacing: .79em}
 
 
 /*BLEACH
@@ -488,8 +493,8 @@ a:hover {opacity: .6}
     .date {margin-top: 15px;}
     
     .title {flex-direction: row; flex-wrap: wrap; justify-content: flex-start}
-    .color_title, .study_title, .create, .space, .box_title, .shorts_title {letter-spacing: normal}
-    .color_title, .create, .masking, .box_title {padding-right: 15px}
+    .color_title, .study_title, .create, .space, .box_title, .shorts_title, .spin, .dye, .felt {letter-spacing: normal}
+    .color_title, .create, .masking, .box_title, .spin, .dye {padding-right: 15px}
     .projecting {padding-right: 19px}
     
     #contact {display: block}
@@ -571,7 +576,7 @@ a:hover {opacity: .6}
     
     .thesis h3 {font-size: min(1.6vw, 17px)}
     
-    .images_fuse img {margin-bottom: 40px}
+    .images_2to1 img {margin-bottom: 40px}
     
     .images_color_study {grid-row-gap: 40px}
     
