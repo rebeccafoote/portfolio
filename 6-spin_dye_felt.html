@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Box Shorts | Rebecca Foote</title>
+  <title>Spin, Dye, Felt | Rebecca Foote</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,11 +15,6 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
-    
-    <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        
-    </script>
 </head>
 
 <body>
@@ -60,43 +55,36 @@
     
     <article class="text">
         <div class="title">
-            <h2 class="box_title">Box</h2>
-            <h2 class="shorts_title">Shorts</h2>
+            <h2 class="spin">Spin,</h2>
+            <h2 class="dye">Dye,</h2>
+            <h2 class="felt">Felt</h2>
         </div>
         <div class="body">
-            <h3 class="date">Fall 2018</h3>
-            <p>Structure created by taking advantage of the rigid properties of raw denim, combined with simple origami-inspired folds and minimal reinforcement.
-            <p>Made with 12oz 100% cotton raw denim and fusible interfacing.
+            <h3 class="date">Fall 2017</h3>
+            <div class="description">
+                <p>Combine together three handcraft textile techniques in one piece.
+                <p>Cotton yarn handspun with a drop spindle, then indigo dyed and needle felted onto a vintage denim top.
+            </div>
         </div>   
     </article>
+    
     <article class="container">
     <div class="images">
         <figure>
-            <img src="images/box_shorts/1.jpg" alt="box_shorts-1" onclick="openModal(); currentSlide(1)" class="hover_opacity"/>
-        </figure>
-        <figure>
-            <img src="images/box_shorts/2.jpg" alt="box_shorts-2" onclick="openModal(); currentSlide(2)" class="hover_opacity"/>
-        </figure>
-        <figure>
-            <img src="images/box_shorts/3.jpg" alt="box_shorts-3" onclick="openModal(); currentSlide(3)" class="hover_opacity"/>
+            <img src="images/spin_dye_felt/sdf-1.jpg" alt="sdf-1" onclick="openModal(); currentSlide(1)" class="hover_opacity"/>
         </figure>
     </div>
-    
+        
     <!--MODAL LIGHTBOX-->
     <div id="modal">
         <span class="close cursor" onclick="closeModal()">
             <img src="images/x.png" alt="x"/>
         </span>
         <div class="modal_content">
-            <div class="slides">
-                <img src="images/box_shorts/1.jpg" alt="box_shorts-1">
-            </div>
-            <div class="slides">
-                <img src="images/box_shorts/2.jpg" alt="box_shorts-2">
-            </div>
-            <div class="slides">
-                <img src="images/box_shorts/3.jpg" alt="box_shorts-3">
-            </div>
+            <figure class="slides">
+                <img src="images/spin_dye_felt/sdf-1.jpg" alt="sdf-1"/>
+            </figure>
+            
             
             <!--NEXT / PREVIOUS-->
             <a class="prev" onclick="plusSlides(-1)">
@@ -107,7 +95,7 @@
             </a>
         </div>
     </div>
- 
+        
     </article>
 
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
@@ -121,13 +109,12 @@
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://www.google-analytics.com/analytics.js" async> 
+    </script>
     
-
 <!--JAVASCRIPT-->
     
 <script src="js/main.js" type="text/javascript"></script>
-    
     
 </section>
 </main>
