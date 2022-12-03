@@ -163,8 +163,8 @@ a:hover {opacity: .6}
 .thesis>* {bor der: 1px solid red}
 
 .thesis-fuse, .thesis-color_study {padding-top: 100%}
-.thesis-fuse {background: url(../images/thesis/portfolio/t-30.jpg) no-repeat center center; background-size: cover;}
-.thesis-color_study {background: url(../images/thesis/color_study/cs-1.jpg) no-repeat center center; background-size: 100%;}
+.thesis-fuse {background: url(../images/thumbnails/thesis/t-30_thumb.jpg) no-repeat center center; background-size: 100%;}
+.thesis-color_study {background: url(../images/thumbnails/thesis/cs_small-37_thumb.jpg) no-repeat center center; background-size: 100%;}
 
 
 /*FUSE*/
@@ -189,11 +189,11 @@ a:hover {opacity: .6}
 .box h3 {margin-bottom: 0;}
 .port-origami_bags, .port-in_out, .port-box_shorts, .port-float, .port-sdf, .port-bleach {padding-top: 100%;}
 
-.port-origami_bags {background: url(../images/origami_bags/3a.jpg) no-repeat 97% 78%; background-size: 355%;}
-.port-in_out {background: url(../images/in_out/in-6.jpg) no-repeat center center; background-size: cover;}
-.port-box_shorts {background: url(../images/box_shorts/3.jpg) no-repeat top center; background-size: cover;}
-.port-float {background: url(../images/float/1.jpg) no-repeat center center; background-size: cover;}
-.port-sdf {background: url(../images/spin_dye_felt/sdf-1.jpg) no-repeat center 100%; background-size: cover;}
+.port-origami_bags {background: url(../images/thumbnails/past_work/create_space-3a_thumb.jpg) no-repeat center center; background-size: 100%;}
+.port-in_out {background: url(../images/thumbnails/past_work/in-6_thumb.jpg) no-repeat center center; background-size: 100%;}
+.port-box_shorts {background: url(../images/thumbnails/past_work/box_shorts-3_thumb.jpg) no-repeat center center; background-size: 100%;}
+.port-float {background: url(../images/thumbnails/past_work/float-1_thumb.jpg) no-repeat center center; background-size: 100%;}
+.port-sdf {background: url(../images/thumbnails/past_work/sdf-1_thumb.jpg) no-repeat center center; background-size: 100%;}
 /*.port-bleach {background: url(../images/bleach/3.jpg) no-repeat center center; background-size: cover; background-position: 80%}*/
 
 
