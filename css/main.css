@@ -181,7 +181,7 @@ a:hover {opacity: .6}
 
 /*FASHION aka PORTFOLIO aka PAST WORK*/
 .fashion {display: grid; grid-template-columns: 31% 31% 31%; grid-gap: 3.5%;}
-.fashoin h3 {text-align: center; font-size: max(2vw, 13px)}
+.fashion h3 {text-align: center; font-size: max(2vw, 13px)}
 .fashion>* {bo rder: 1px solid red}
 
 .box {margin-bottom: 5px;}
